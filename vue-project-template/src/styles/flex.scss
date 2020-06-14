@@ -1,0 +1,40 @@
+/* Flex layout style code */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-around{
+  justify-content: space-around;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

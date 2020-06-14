@@ -1,0 +1,49 @@
+@mixin mt($val) {
+  margin-top: $val;
+}
+
+@mixin mb($val) {
+  margin-bottom: $val;
+}
+
+@mixin ml($val) {
+  margin-left: $val;
+}
+
+@mixin mr($val) {
+  margin-right: $val;
+}
+
+.mt-10 {
+  @include mt(10px)
+}
+
+.mt-20 {
+  @include mt(20px)
+}
+
+.mb-10 {
+  @include mb(10px)
+}
+
+.mb-20 {
+  @include mb(20px)
+}
+
+.ml-10 {
+  @include ml(10px)
+}
+
+.ml-20 {
+  @include ml(20px)
+}
+
+.mr-10 {
+  @include mr(10px)
+}
+
+.mr-20 {
+  @include mr(20px)
+}
+
+
